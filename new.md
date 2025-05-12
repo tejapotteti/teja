@@ -139,7 +139,7 @@ The default storage size is usually sufficient for a basic instance (8 GB). Howe
 > **Tip**: Launching your instance can take a few minutes. Once it’s ready, it will show a status of **Running**.
 
 <p align="center">
-  <img src="step7-launch.jpg" alt="Launch Button" width="600"/>
+  <img src="WhatsApp Image 2025-05-12 at 16.10.58_766dc30c.jpg" alt="Launch Button" width="600"/>
 </p>
 
 ---
