@@ -35,7 +35,7 @@ The first step is to log in to the AWS Console, where you’ll have access to EC
 > **Tip**: AWS provides a **Free Tier** for new users, allowing you to use certain services at no cost for the first 12 months, including EC2 t2.micro instances.
 
 <p align="center">
-  <img src="step1-signin.jpg" alt="AWS Login Page" width="600"/>
+  <img src="d8bc7e5376d7452a9f3aafb1a7668375.jpg" alt="AWS Login Page" width="600"/>
 </p>
 
 ---
@@ -50,7 +50,7 @@ Now that you're logged in, we need to access the EC2 dashboard to create and man
 > The EC2 dashboard is the control center for managing your virtual servers. Here you can launch instances, configure security, set up storage, and more.
 
 <p align="center">
-  <img src="step2-ec2-dashboard.jpg" alt="EC2 Service" width="600"/>
+  <img src="7b209f87fe574b3aa69ed49ec51c7927.jpg" alt="EC2 Service" width="600"/>
 </p>
 
 ---
@@ -68,7 +68,13 @@ In this step, we will configure the settings for your new EC2 instance.
 > **Explanation**: AMI (Amazon Machine Image) is the image or template for the operating system, and Instance Type determines the hardware configuration of your EC2 server.
 
 <p align="center">
-  <img src="step3-launch-instance.jpg" alt="Launch EC2 Page" width="600"/>
+  <img src="fae33c1da759482689678b4c0c4bc575.jpg" alt="EC2 Service" width="600"/>
+</p>
+
+In the **Name and tags** section, give your instance a name, like `Teja Potteti`.
+
+<p align="center">
+  <img src="bb980ea958904e679f0fb2a814f6d322.jpg" alt="EC2 Service" width="600"/>
 </p>
 
 ---
@@ -85,7 +91,7 @@ For security reasons, you need a key pair to SSH into your EC2 instance. A key p
 > **Note**: The `.pem` file is a **one-time download**. You won’t be able to download it again, so store it securely.
 
 <p align="center">
-  <img src="step4-key-pair.jpg" alt="Create Key Pair" width="600"/>
+  <img src="5820a0b08ca14cdb967bda56c034769a.jpg" alt="Create Key Pair" width="600"/>
 </p>
 
 ---
@@ -94,13 +100,19 @@ For security reasons, you need a key pair to SSH into your EC2 instance. A key p
 
 1. AWS automatically creates a default security group that allows SSH access (port 22). Ensure you allow SSH access from your IP address.
 2. Click **Edit inbound rules** to make sure that **SSH (port 22)** is allowed from **My IP** only for security.
-3. Optionally, you can also enable **HTTP (port 80)** if you plan to host a web server or access the instance via a browser.
 
 > **Security Tip**: Allowing SSH access from "Anywhere" (`0.0.0.0/0`) is a security risk, as it opens your server to the internet. Always restrict access to specific IP addresses when possible.
 
 <p align="center">
-  <img src="step5-security-group.jpg" alt="Security Group Settings" width="600"/>
+  <img src="WhatsApp Image 2025-05-12 at 16.03.01_b7ba15f5.jpg" alt="Security Group Settings" width="600"/>
 </p>
+
+3. Optionally, you can also enable **HTTP (port 80)** if you plan to host a web server or access the instance via a browser.
+
+<p align="center">
+  <img src="WhatsApp Image 2025-05-12 at 16.03.42_137bb13d.jpg" alt="Security Group Settings" width="600"/>
+</p>
+
 
 ---
 
@@ -114,7 +126,7 @@ The default storage size is usually sufficient for a basic instance (8 GB). Howe
 > **Tip**: SSDs (Solid State Drives) provide faster read/write performance compared to HDDs (Hard Disk Drives), so they are preferred for performance-critical applications.
 
 <p align="center">
-  <img src="step6-storage.jpg" alt="EC2 Storage" width="600"/>
+  <img src="85f76d545407446da0dcbc8b066dca40.jpg" alt="EC2 Storage" width="600"/>
 </p>
 
 ---
