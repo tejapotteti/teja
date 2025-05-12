@@ -156,17 +156,5 @@ Once the instance is launched, you need to verify that it’s running and health
 > **Tip**: The **Public IP** is the address you will use to SSH into your instance. Note this down.
 
 <p align="center">
-  <img src="step8-instance-running.jpg" alt="Running Instance" width="600"/>
+  <img src="WhatsApp Image 2025-05-12 at 16.34.22_3ac37d31.jpg" alt="Running Instance" width="600"/>
 </p>
-
----
-
-## 💻 Step 9: Connect to EC2 Instance (Linux/Mac)
-
-To connect to the EC2 instance via SSH, follow these steps:
-
-1. Open a terminal (Linux/Mac).
-2. Change the permissions of your private key file:
-
-   ```bash
-   chmod 400 my-key.pem
